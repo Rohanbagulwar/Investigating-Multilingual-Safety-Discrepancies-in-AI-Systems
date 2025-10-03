@@ -1,0 +1,6 @@
+__pycache__/
+models--*/
+.locks
+NLLB_Qunatized/*
+.gradio/
+nllb-600M-quantized/*
