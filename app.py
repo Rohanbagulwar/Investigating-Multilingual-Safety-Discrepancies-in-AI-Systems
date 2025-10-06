@@ -4,9 +4,9 @@ from flores import code_mapping
 import gradio as gr
 import platform
 
-device = "cpu" if platform.system() == "Darwin" else "cuda"
-
+device = "cpu" if platform.system() == "Windows" else "cuda"
 MODEL_DIR ="RohanAi/nllb_quantized"
+# MODEL_DIR = "./nllb-600M-quantized"
 
 # 8-bit quantization for GPU
 bnb_config = BitsAndBytesConfig(load_in_8bit=True)
@@ -18,7 +18,7 @@ if device == "cuda":
         MODEL_DIR, device_map="auto", quantization_config=bnb_config
     )
 else:
-    model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_DIR)
+    model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_DIR).to(device)
 
 punct_normalizer = MosesPunctNormalizer(lang="en")
 print("device is ",device)

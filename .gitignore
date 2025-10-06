@@ -4,3 +4,5 @@ models--*/
 NLLB_Qunatized/*
 .gradio/
 nllb-600M-quantized/
+env/*
+*.ipynb
