@@ -3,4 +3,4 @@ models--*/
 .locks
 NLLB_Qunatized/*
 .gradio/
-nllb-600M-quantized/*
+nllb-600M-quantized/

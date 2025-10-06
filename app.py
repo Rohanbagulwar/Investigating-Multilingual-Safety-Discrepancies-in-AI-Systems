@@ -6,7 +6,7 @@ import platform
 
 device = "cpu" if platform.system() == "Darwin" else "cuda"
 
-MODEL_DIR = "RohanAi/nllb_quantized"
+MODEL_DIR ="RohanAi/nllb_quantized"
 
 # 8-bit quantization for GPU
 bnb_config = BitsAndBytesConfig(load_in_8bit=True)
