@@ -27,7 +27,7 @@ This project provides a quantized, CPU-optimized version of the NLLB (No Languag
     python app.py
     ```
   ## Hugging Face Space
-  [Link Text](https://huggingface.co/spaces/RohanAi/Quantized_lang._Translator)
+  [Hugging Face Space](https://huggingface.co/spaces/RohanAi/Quantized_lang._Translator)
 
 ## Supported Languages
 
