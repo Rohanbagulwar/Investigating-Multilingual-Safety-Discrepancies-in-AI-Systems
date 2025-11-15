@@ -7,6 +7,8 @@ This research project investigates how AI safety and jailbreak vulnerabilities v
 **Key Research Question:** Do large language models demonstrate consistent safety behaviors across languages, or do multilingual and culturally-specific variations reveal safety vulnerabilities?
 
 ---
+## System design 
+![System Architecture](diagram-export-11-14-2025-7_50_22-PM.png)
 
 ## 👥 Research Team
 
