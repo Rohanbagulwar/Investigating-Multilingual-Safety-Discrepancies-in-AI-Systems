@@ -3,3 +3,9 @@ sacremoses
 gradio
 bitsandbytes
 accelerate
+matplotlib
+openai
+seaborn
+openpyxl
+pandas
+

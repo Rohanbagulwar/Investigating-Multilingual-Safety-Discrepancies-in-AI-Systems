@@ -62,7 +62,7 @@ iface = gr.Interface(
             gr.Dropdown(langs, label="Source Language"),
             gr.Dropdown(langs, label="Target Language")],
     outputs=gr.Textbox(lines=30, label="Translated Text"),
-    title="🌍 Language Translation (CPU-friendly)"
+    title=" Language Translation (CPU-friendly)"
 )
 
 iface.launch(share=True)
