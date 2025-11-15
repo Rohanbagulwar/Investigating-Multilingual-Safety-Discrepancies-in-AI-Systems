@@ -6,3 +6,5 @@ NLLB_Qunatized/*
 nllb-600M-quantized/
 env/*
 *.ipynb
+.env
+*.env
