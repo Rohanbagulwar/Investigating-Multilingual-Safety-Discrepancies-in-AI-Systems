@@ -13,7 +13,6 @@ This research project investigates how AI safety and jailbreak vulnerabilities v
 ## 👥 Research Team
 
 | Contributor
-|---|---|
 | **Rohan** 
 | **Sibbi** 
 | **Shesadree** 
