@@ -65,14 +65,14 @@ This research project investigates how AI safety and jailbreak vulnerabilities v
 
               TARGET LLMs (Language Models)
                     │
-    ┌───────────────┼───────────────┐
-    │               │               │
-┌───▼──┐        ┌──▼──┐        ┌──▼──
-│Hindi │        │Tamil│        │ Marathi
-│      │        │     │        │-
-│      │        │     │        │
-└──────┘        └─────┘        └──────┘
-            TARGET LANGUAGES
+   ┌──────────────────────────────────────────┬────── 
+   │                |              |           │                                          
+┌───▼──┐        ┌──▼──┐        ┌──▼──┐        ┌──▼──┐
+│Hindi │        │Tamil│        │Marathi│      │Odia │
+│      │        │     │        │       │      │     │
+│      │        │     │        │       |      │     │  
+└──────┘        └─────┘        └──────┘       └─────┘
+         TARGET LANGUAGES
 ```
 
 ---
