@@ -12,9 +12,9 @@ This research project investigates how AI safety and jailbreak vulnerabilities v
 
 ## 👥 Research Team
 
-| Contributor
+Contributor 
 | **Rohan** 
-| **Sibbi** 
+| **Sibi** 
 | **Shesadree** 
 | **Hitika** 
 | **Maitrey** 
@@ -448,7 +448,7 @@ If you use this research or code, please cite:
 ```bibtex
 @research{multilingual_safety_2025,
   title={Investigating Multilingual Safety Discrepancies in AI Systems},
-  authors={Rohan and Sibbi and Shesadree and Hitika and Maitrey and Nitish},
+  authors={Rohan and Sibi and Shesadree and Hitika and Maitrey and Nitish},
   year={2025},
   url={[repository-url]}
 }
